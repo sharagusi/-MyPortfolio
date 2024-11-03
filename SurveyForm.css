@@ -1,0 +1,35 @@
+body{
+    background-color: beige;
+    family-font: 2em;
+  }
+  #head{
+    text-align: center;
+    border: dashed .5px orange;
+    border-radius: 10px;
+  }
+  #survey-form{
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 40%;
+    padding-right: 40%;
+    border: dashed .5px orange;
+    border-radius: 10px;
+  }
+  button{
+    color: orange;
+    background-color: white;
+    border: solid .5px orange;
+    padding: 2%
+  }
+  #submit{
+    margin-left: 48%;
+    border-radius: 10px;
+  }
+  button:hover{
+    color: white;
+    background-color: grey;
+    border: solid .5px black;
+  }
+  #submit{
+    box-shadow: 2px 2px 3px;
+  }
