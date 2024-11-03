@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="SurveyFrom.css">
+  <title>Survey Form</title>
+<body>
+<main>
+
+  <div id="head">
+  <h1 id="title">Survey Form by Zcia</h1>
+  <p id="description">This is my first survey form (certification project) in freecodecamp! ^_^</p>
+  <p id="description">Date: Feb. 2, 2024</p>
+  </div>
+
+  <br>
+
+  <form id="survey-form">
+    <label id="name-label">Name:
+    <input type="text" id="name" placeholder="Huh Yunjin" required></label><br>
+    <label id="email-label">Email:
+    <input type="email" id="email" placeholder="fake@gmail.com" required></label><br>
+    <label id="number-label">Quantity:
+    <input type="number" id="number" min="1" max="5" value="1" placeholder="number"></label><br>
+    
+    <label for="">Payment:
+      <select id="dropdown" name="dropdown">
+        <option value="1">Cash</option>
+        <option value="2">Online</option>
+        <option value="3">Credit Card</option>
+      </select></label><br><br>
+
+    <legend>How do you feel today? :<br>
+    <label for="happy">Happy<input type="radio" id="happy" name="feeling" value="happy" checked>
+    <label for="sad">Sad<input type="radio" id="sad" name="feeling" value="sad">
+    <label for="tired">Tired<input type="radio" id="tired" name="feeling" value="tired">
+    </legend><br>
+    
+    <legend>I aspire my 2024 to be: <br>
+    <label for="rich">Rich<input type="checkbox" id="rich" value="rich" name="dream"checked>
+    <label for="pretty">Pretty<input type="checkbox" id="pretty" value="pretty" name="dream">
+    <label for="smart">Smart<input type="checkbox" id="smart" value="sa=mart" name="dream">
+    </legend><br>
+
+    <label for="wall">Freedom Wall! <br>
+    <textarea id="wall" name="wall" rows="4" cols="30" placeholder="Any nice thought would be appreciated!"></textarea></label><br><br>
+<button id="submit">Submit</button>
+  </form>
+  </main>
+  </body>
+  </html>
